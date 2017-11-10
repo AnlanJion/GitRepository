@@ -1,0 +1,15 @@
+$animal-list:tu1,tu2,tu3;
+@each $animal in $animal-list{
+  .#{$animal}-icon{
+    background:url('img/#{$animal}.jpg') no-repeat;
+  }
+}
+$w:(w1:100px,w2:200px,w3:300px);
+@each $key,$value in $w{
+  ##{$key}{
+    width:$value;
+    height:$value;
+    background:red;
+  }
+
+}

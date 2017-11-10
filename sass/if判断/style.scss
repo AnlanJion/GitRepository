@@ -1,0 +1,12 @@
+$flag:1;
+body{
+  width:300px;
+  height:300px;
+  @if $flag ==1 {
+    background:red;
+  }@else if $flag ==2{
+    color:blue;
+  }@else{
+    font-size:16px;
+  }
+}

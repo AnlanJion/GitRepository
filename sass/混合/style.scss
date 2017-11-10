@@ -1,0 +1,15 @@
+@mixin baseStyle(){
+  width: 200px;
+  height: 200px;
+}
+@mixin base($value:10px){
+  margin:$value;
+}
+.div1{
+  @include baseStyle;
+  background:red;
+p{
+  @include base;
+
+}
+}

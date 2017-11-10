@@ -1,0 +1,25 @@
+.tu1-icon {
+  background: url("img/tu1.jpg") no-repeat; }
+
+.tu2-icon {
+  background: url("img/tu2.jpg") no-repeat; }
+
+.tu3-icon {
+  background: url("img/tu3.jpg") no-repeat; }
+
+#w1 {
+  width: 100px;
+  height: 100px;
+  background: red; }
+
+#w2 {
+  width: 200px;
+  height: 200px;
+  background: red; }
+
+#w3 {
+  width: 300px;
+  height: 300px;
+  background: red; }
+
+/*# sourceMappingURL=style.css.map */

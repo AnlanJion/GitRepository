@@ -1,0 +1,10 @@
+@mixin base(){
+  width: 100px;
+  height: 100px;
+
+}
+@for $i from 4 through 5{
+#box#{$i}{
+  @include base;
+}
+}

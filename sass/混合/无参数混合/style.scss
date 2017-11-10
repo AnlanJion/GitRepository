@@ -1,0 +1,9 @@
+@mixin baseStyle($w,$h,$c){
+  width:$w;
+  height:$h;
+  color:$c;
+}
+.div1{
+  @include baseStyle(100px,200px,#ccc);
+
+}

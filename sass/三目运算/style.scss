@@ -1,0 +1,6 @@
+$flag:false;
+body{
+  width:200px;
+  height:100px;
+  background:if($flag,red,black);
+}
